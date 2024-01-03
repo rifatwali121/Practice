@@ -1,0 +1,108 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+h3{
+    
+    font-size: 40px;
+    margin-left: 30px;
+    margin-top: 200px;
+    
+
+}
+section{
+    display: flex;
+    /* margin: 150px; */
+
+}
+.skip{
+    color:rgba(255, 166, 0, 0.918);
+}
+.Imagine{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size:small;
+    margin-left: 30px;
+    
+}
+
+.half-width{
+    width:50%;
+    padding-left: 3%;
+}
+.half-width img{
+    width: 100%;
+    height: 100%;
+}
+.Oder-food{
+    background-image: linear-gradient(orange,tomato);
+    color:white;
+    font-size: 700;
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 80px;
+    margin-left: 30px;
+}
+.mohila{
+    margin-top: 40px;
+    width:70%;
+    padding-left: 10%;
+}
+.mohila img{
+    width: 100%;
+    height: 100%;
+}
+.about{
+    /* font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif; */
+    /* text-align: left; */
+    width: 444px;
+    height: 54px;
+    /* font-size: 50px; */
+    margin-left: 10%;
+    /* padding-top: 2%; */
+}
+p{
+    margin-top: 10px;
+    font-size: 15px;
+    margin-left: 10%;
+    margin-right: 30%;
+
+}
+.Contact-Me{
+    background-image: linear-gradient(orange,tomato);
+    color:white;
+    font-size: 700;
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 80px;
+    margin-left: 10%;
+    margin-top: 7%;
+
+}
+
+.middle-banner{
+    background-image: url(images/middel.jpg.jpg);
+    background-repeat:no-repeat;
+    background-size: cover; 
+    
+    background-position: center;  
+    width: 1440px;
+    height:600px;
+        
+}
+
+.my-recipi{
+    text-align: center;
+    
+    
+}
+.last{
+    text-align: center;
+}
+.square{
+    box-shadow: 10px 10px gray;
+
+}
