@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>specificity</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        h1{
+            background-color: aqua;
+        }
+        .first-heading{
+            color: blue;
+        }
+        #third{
+            color: red;
+        }
+        p{
+            border: 2px solid red;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="first-heading">my heading number -1</h1>
+    <h1 class="first-heading">my heading number -2</h1>
+    <h1 style="color:burlywood" id="third" class="first-heading">my heading number -3</h1>
+    <h1 class="first-heading">my heading number -4</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima quia enim veritatis! Voluptatem quod similique dolor laudantium ea deleniti, quae quia quo quidem fugiat ab?</p>
+</body>
+</html>
